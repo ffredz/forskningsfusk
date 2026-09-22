@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 np.random.seed(42)
 
 
-df_5 = pd.read_excel('data/intensitet1.xlsx')
-df_65 = pd.read_excel('data/intensitet2.xlsx')
-df_8 = pd.read_excel('data/intensitet3.xlsx')
-df_high = pd.read_excel('data/intensitet4.xlsx')
-df_settings = pd.read_excel('data/innstillinger.xlsx')
+df_5 = pd.read_excel('data/raw/intensitet1.xlsx')
+df_65 = pd.read_excel('data/raw/intensitet2.xlsx')
+df_8 = pd.read_excel('data/raw/intensitet3.xlsx')
+df_high = pd.read_excel('data/raw/intensitet4.xlsx')
+df_settings = pd.read_excel('data/raw/innstillinger.xlsx')
 
 df_5=df_5.drop(columns=['Maling'])
 df_65 = df_65.drop(columns=['Maling'])
